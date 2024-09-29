@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="managecss.css">
+    <script src="managejs.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Budget Buddy</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-content">
+            <div class="nav-title">
+                <p id="title-left">Budget</p>
+                <p id="title-right">Buddy</p>
+            </div>
+            <a href="../Home Page/home.html">Home</a>
+            <a href="#">Manage</a>
+            <a href="../About Page/about.html">About</a>
+            <div onclick="document.location='../Profile Page/profile.html'" class="nav-img"></div>
+        </div>
+    </div>
+
+    <div class="total-balance">
+        <p>Total Balance</p>
+        <h1>$ 123,479.53</h1>
+    </div>
+
+    <div class="overview">
+        <h2>Overview</h2>
+        <div class="overview-detail">
+            <div class="income">
+                <div class="overview-title">
+                    <img src="../Images/greenarrow.png" alt="">
+                    <h1>Income</h1>
+                </div>
+                <p>$ 175,000.00</p>
+            </div>
+            <div class="expense">
+                <div class="overview-title">
+                    <img src="../Images/redarrow.png" alt="">
+                    <h1>Expense</h1>
+                </div>
+                <p>$ 43,381,92</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="earing">
+        <div class="statistic">
+            <h1>Earning Statistics</h1>
+            <div class="number">
+                <div class="number-section">
+                    <p>5000</p>
+                    <div class="number-line"></div>
+                </div>
+                <div class="number-section">
+                    <p>4000</p>
+                    <div class="number-line"></div>
+                </div>
+                <div class="number-section">
+                    <p>3000</p>
+                    <div class="number-line"></div>
+                </div>
+                <div class="number-section">
+                    <p>2000</p>
+                    <div class="number-line"></div>
+                </div>
+                <div class="number-section">
+                    <p>1000</p>
+                    <div class="number-line"></div>
+                </div>
+            </div>
+            <div class="month">
+                <h2>JAN</h2>
+                <h2>FEB</h2>
+                <h2>MAR</h2>
+                <h2>APR</h2>
+                <h2>MAY</h2>
+                <h2>JUN</h2>
+                <h2 id="july">JUL</h2>
+                <h2>AUG</h2>
+                <h2>SEP</h2>
+                <h2>OCT</h2>
+                <h2>NOV</h2>
+                <h2>DEC</h2>
+            </div>
+            <div class="statistic-detail">
+                <div class="the-detail">
+                    <div id="red-code"></div>
+                    <p>Expenses</p>
+                </div>
+                <div class="the-detail">
+                    <div id="green-code"></div>
+                    <p>income</p>
+                </div>
+            </div>
+            <div class="statistic-bar">
+                <div id="bar1" class="bar">
+                    <div id="greenbar1" class="the-bar"></div>
+                    <div id="redbar1" class="the-bar"></div>
+                </div>
+                <div id="bar2" class="bar">
+                    <div id="greenbar2" class="the-bar"></div>
+                    <div id="redbar2" class="the-bar"></div>
+                </div>
+                <div id="bar3" class="bar">
+                    <div id="greenbar3" class="the-bar"></div>
+                    <div id="redbar3" class="the-bar"></div>
+                </div>
+                <div id="bar4" class="bar">
+                    <div id="greenbar4" class="the-bar"></div>
+                    <div id="redbar4" class="the-bar"></div>
+                </div>
+                <div id="bar4" class="bar">
+                    <div id="greenbar5" class="the-bar"></div>
+                    <div id="redbar5" class="the-bar"></div>
+                </div>
+                <div id="bar5" class="bar">
+                    <div id="greenbar6" class="the-bar"></div>
+                    <div id="redbar6" class="the-bar"></div>
+                </div>
+                <div id="bar6" class="bar">
+                    <div id="greenbar7" class="the-bar"></div>
+                    <div id="redbar7" class="the-bar"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="history">
+            <div class="history-title">
+                <h1>History</h1>
+                <p>View all</p>
+            </div>
+            <div class="history-list">
+                <div class="history-detail">
+                    <img src="../Images/historyfood.png" alt="">
+                    <div class="detail-title">
+                        <h1>Food</h1>
+                        <p>Expense</p>
+                    </div>
+                </div>
+                <h2>$ 16.50</h2>
+            </div>
+            <div class="history-list">
+                <div class="history-detail">
+                    <img src="../Images/historysub.png" alt="">
+                    <div class="detail-title">
+                        <h1>Subscription</h1>
+                        <p>Expense</p>
+                    </div>
+                </div>
+                <h2>$ 14.99</h2>
+            </div>
+            <div class="history-list">
+                <div class="history-detail">
+                    <img src="../Images/historyfood.png" alt="">
+                    <div class="detail-title">
+                        <h1>Food</h1>
+                        <p>Expense</p>
+                    </div>
+                </div>
+                <h2>$ 9.39</h2>
+            </div>
+            <div class="history-list">
+                <div class="history-detail">
+                    <img src="../Images/historysalary.png" alt="">
+                    <div class="detail-title">
+                        <h1>Salary</h1>
+                        <p>Income</p>
+                    </div>
+                </div>
+                <h2 id="profit">$ 4,850</h2>
+            </div>
+            <div class="history-list">
+                <div class="history-detail">
+                    <img src="../Images/historygift.png" alt="">
+                    <div class="detail-title">
+                        <h1>Gift</h1>
+                        <p>Expense</p>
+                    </div>
+                </div>
+                <h2>$ 79.99</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="add">
+        <button onclick="document.location='../Add Page/income.html'" id="addin">Add Income</button>
+        <button onclick="document.location='../Add Page/expense.html'" id="addex">Add Expenses</button>
+    </div>
+</body>
+</html>

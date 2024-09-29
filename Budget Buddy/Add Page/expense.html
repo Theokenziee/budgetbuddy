@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addcss.css">
+    <script src="addjs.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Budget Buddy</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-content">
+            <div class="nav-title">
+                <p id="title-left">Budget</p>
+                <p id="title-right">Buddy</p>
+            </div>
+            <a href="../Home Page/home.html">Home</a>
+            <a href="../Manage page/manage.html">Manage</a>
+            <a href="../About Page/about.html">About</a>
+            <div onclick="document.location='../Profile Page/profile.html'" class="nav-img"></div>
+        </div>
+    </div>
+
+    <div class="input">
+        <p>Add Expense</p>
+        <input type="text" placeholder="$">
+        <p>Add Notes</p>
+        <input type="text">
+    </div>
+
+    <div class="category">
+        <h1>Category</h1>
+        <div class="greyC">
+            <img src="../Images/expense1.png" alt="">
+            <div class="category-title">
+                <h2>Food</h2>
+                <p>Expenses</p>
+            </div>
+        </div>
+        <div class="blueC">
+            <img src="../Images/expense2.png" alt="">
+            <div class="category-title">
+                <h2>Subscription</h2>
+                <p>Expenses</p>
+            </div>
+        </div>
+        <div class="greyC">
+            <img src="../Images/expense3.png" alt="">
+            <div class="category-title">
+                <h2>Gift</h2>
+                <p>Expenses</p>
+            </div>
+        </div>
+        <div class="blueC">
+            <img src="../Images/expense4.png" alt="">
+            <div class="category-title">
+                <h2>Shopping</h2>
+                <p>Expenses</p>
+            </div>
+        </div>
+        <div class="greyC">
+            <img src="../Images/expense5.png" alt="">
+            <div class="category-title">
+                <h2>Tax</h2>
+                <p>Expenses</p>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="document.location='../Manage Page/manage.html'" class="confirm">Confirm</button>
+
+    <div class="space"></div>
+</body>
+</html>
